@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    margin:auto;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(197, 231, 248);
+    max-width: 220px;
+    margin-top: 20px;
+    border-radius: 100px 100px 0 0;
+    overflow: hidden;
+    box-shadow: black;
+}
+img{
+    height: 220px;
+    width: 220px;
+}
+h1{
+font-size: larger;
+font-family: 'Times New Roman', Times, serif;
+}
+.price{
+    color: black;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.card button{
+    border: none;
+    padding: 12px;
+    /* outline: 0; */
+    background-color: rgb(142, 213, 248);
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.card button:hover{
+    opacity: 0.5;
+}
+.product-description{
+    text-align: center;
+    margin-top: 5px;
+}
